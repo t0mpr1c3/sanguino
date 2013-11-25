@@ -1,4 +1,6 @@
 sanguino
 ========
 
-Sanguino ATmega644 development board
+Sanguino ATmega644P development board
+
+http://sanguino.cc/hardware/
