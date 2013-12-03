@@ -1,4 +1,5 @@
-cp ../gerbers/* .
+cp ../sanguino/sanguino.* .
+cp ../sanguino_3x_outline/sanguino_3x_outline.* .
 rm *.s#?
 rm *.b#?
 perl /Users/thomasprice/Documents/eagle/GerberMerger/GerberMerger.pl sanguino_3x_outline sanguino -1030 -1200
@@ -10,8 +11,8 @@ do
   cp $i sanguino_3x.$j
 done
 cp sanguino_3x_outline.GML sanguino_3x.GML
-rm sanguino_3x.zip
-tar -czf sanguino_3x.zip sanguino_3x.*
+rm sanguino_3x.tgz
+tar -czf sanguino_3x.tgz sanguino_3x.*
 rm sanguino_3x_outline_sanguino*
 rm sanguino.*
 rm sanguino_3x_outline.*
